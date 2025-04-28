@@ -1,5 +1,7 @@
 # API 1º Semestre - 01/2023
-[![header](https://github.com/user-attachments/assets/a73c339e-1b18-4b62-8f5d-4c27e869dc24)](https://github.com/wiz-fatec/avaliacao-360)
+<a href="https://github.com/wiz-fatec/avaliacao-360">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"  width="200" height="65" />
+</a>
 
 # Parceiro - FATEC São José dos Campos - Prof. Jessen Vidal
 ![images](https://github.com/user-attachments/assets/e95aca6f-e14c-4178-97c3-997752fcba52)
