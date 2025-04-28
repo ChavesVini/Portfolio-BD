@@ -1,13 +1,19 @@
-# Parceiro 
-Interno, FATEC São José dos Campos - Prof. Jessen Vidal
+# API 1º Semestre - 01/2023
+[![header](https://github.com/user-attachments/assets/a73c339e-1b18-4b62-8f5d-4c27e869dc24)](https://github.com/wiz-fatec/avaliacao-360)
+
+# Parceiro - FATEC São José dos Campos - Prof. Jessen Vidal
+![images](https://github.com/user-attachments/assets/e95aca6f-e14c-4178-97c3-997752fcba52)
 
 # Resumo do projeto
 O programa viabiliza a avaliação dos alunos, se baseando na metodologia Avaliação 360º. Para liberar o acesso ao programa, teremos 2 niveis de acesso: Administrador e Aluno. Dependendo do tipo de acesso, haverá opções de tela diferentes. A tela "aluno" possibilitará ao usuário ver a turma e o grupo ao qual está inserido, avaliar os membros do seu grupo e se auto-avaliar, podendo ver os resultados das avaliações realizadas por ele. O "Administrador" terá atribuições de criar as turmas, grupos e o registro dos alunos, requisitar a avaliação e observar os resultados da mesma, atraves de dashboards operacionais e gerenciais.
 
-# Tecnologias 
-Figma: Usado para a esquematização do protótipo da aplicação;
-Python: Utilizado no back-end para a transformação dos dados e no front-end, usando o PySimple GUI;
-Trello: Foi usado para o gerenciamento das tarefas.
+# Tecnologias
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"  width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original.svg" width="100" height="100" />
+          
+- Figma: Usado para a esquematização do protótipo da aplicação;
+- Python: Utilizado no back-end para a transformação dos dados e no front-end, usando o PySimple GUI;
+- Trello: Foi usado para o gerenciamento das tarefas.
 
 # Contribuições Individuais
 No primeiro semestre, contribui somente no back-end e no front-end e atuei em alguns bugs.
@@ -80,8 +86,19 @@ def create_window(name):
 # Aprendizados Efetivos
 Tive a oportunidade de começar no desenvolvimento aprendendo Python no primeiro semestre, como foi o meu inicio na carreira de Desenvolvimento tive muita dificuldade para aprender juntamente com o desenvolvimento da API.
 
-Hard Skills
-Python: Guiado.
+## Hard Skills
+<details>
+  
+| Habilidade |	Classificação |
+| :-----: | :-----: |
+| Figma |	★☆☆☆☆ |
+| Python | ★☆☆☆☆ |
 
-Soft Skills
+</details> 
+
+## Soft Skills
+<details>
+  
 Trabalho em equipe: Busquei não ficar com dúvidas e perguntava a todo momento o que era pra fazer em cada tarefa. Busquei minha autonomia, mas certamente não conseguiria fazer nada sem meus colegas de classe me auxiliando.
+</details> 
+
