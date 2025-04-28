@@ -1,6 +1,6 @@
 # API 2º Semestre - 02/2023
 
-<a href="https://github.com/wiz-fatec/avaliacao-360">
+<a href="https://github.com/wiz-fatec/api-2BD">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"  width="200" height="65" />
 </a>
 
