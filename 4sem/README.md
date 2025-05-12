@@ -457,13 +457,20 @@ Gostei desse semestre pois desenvolvi a parte de banco de dados, algo que tinha 
 | GitHub |	★★★☆☆ |
 | Java | ★★☆☆☆ |
 | PostgreSQL | ★★☆☆☆ |
+| TypeScript | ★★☆☆☆ |
+| JavaScript | ★★☆☆☆ |
+| Vue.js | ★★☆☆☆ |
 
 </details> 
 
 ## Soft Skills
 <details>
   
-Colaboração: Busquei ouvir todas as criticas e pensar numa visão unificada que abrangesse todas as ideias dos integrantes, além de ajudar mais.
+| Habilidade |	Classificação |
+| :-----: | :-----: |
+| Trabalho em equipe |	★★★☆☆ |
+| Colaboração | ★★★☆☆ |
+| Autonomia | ★★★☆☆ |
 
 </details> 
 
