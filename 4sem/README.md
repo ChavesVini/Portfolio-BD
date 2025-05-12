@@ -446,8 +446,7 @@ onMounted(() => {
 
 
 # Aprendizados Efetivos
-Aprendi Java numa velocidade consideravelmente rápida, não tive muitos problemas com a sintaxe e até melhorei meu modo de desenvolver as tarefas, criei mais autonomia e desenvolvi minha colaboração. 
-Gostei desse semestre pois desenvolvi a parte de banco de dados, algo que tinha visto antes da faculdade, e fui desenvolvendo cada vez mais.
+Foi a minha primeira vez pegando front-end para desenvolver, me acostumei rápido por conta da sintaxe ser bem mais fácil. Além disso, gostei de ficar apenas no front-end esse semestre pois tinha um desafio novo a minha frente, e saber que eu consegui aprender o suficiente para entender a sintaxe e ainda sim fazer os códigos foi muito gratificante.
 
 ## Hard Skills
 <details>
