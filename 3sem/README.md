@@ -64,6 +64,9 @@ Por mais que tivesse mais focado em backend, ajudei também as pessoas do front 
 
 </details>
 
+# Aprendizados Efetivos
+Considero o semestre que mais mudou o meu jeito de pensar e fazer os códigos, pois tivemos muitas mudanças no grupo. Mas, consegui desenvolver a linguagem mais ainda e o Spring-Boot. Sobre front-end, peguei algumas coisas leves para consertar, mas não tive um grande desenvolvimento na linguagem, coisa que ia mudar no próximo semestre
+
 # Hard Skills
 
 <details>
