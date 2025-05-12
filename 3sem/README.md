@@ -32,9 +32,10 @@ No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas p
 
 O algoritmo de ler o cabeçalho do Excel
 
+Montei o algoritmo mais importante do projeto, para ler um arquivo Excel de sua escolha, e meu algoritmo ia ler e retornar os nomes dos cabeçalhos. 
+Foi reciclado um pedaço de um código do segundo semestre (2023-2) para trazer os cabeçalhos e o conteúdo dentro do CSV, fazendo uma lógica para trazer apenas os cabeçalhos, fazendo o mesmo para ler arquivos Excel (XLSX, XLSM, etc). Não foi tão dificil de desenvolver, mas gostaria que fosse um pouco mais desafiador, até porque foi só incrementar mais algumas linhas e saiu funcionando tranquilamente.
+
 <details>
-  Montei o algoritmo mais importante do projeto, para ler um arquivo Excel de sua escolha, e meu algoritmo ia ler e retornar os nomes dos cabeçalhos. 
-  Foi reciclado um pedaço de um código do segundo semestre (2023-2) para trazer os cabeçalhos e o conteúdo dentro do CSV, fazendo uma lógica para trazer apenas os cabeçalhos, fazendo o mesmo para ler arquivos Excel (XLSX, XLSM, etc). Não foi tão dificil de desenvolver, mas gostaria que fosse um pouco mais desafiador, até porque foi só incrementar mais algumas linhas e saiu funcionando tranquilamente.
 
 <img width="416" alt="primeira_contribuicao" src="https://github.com/user-attachments/assets/77218d9f-c399-46a7-9e97-186ffda80aa2">
 
@@ -42,9 +43,10 @@ O algoritmo de ler o cabeçalho do Excel
   
 Algoritmo para selecionar entre Excel e CSV
 
+Consistia em, quando escrevesse o tipo do Excel, ele selecionaria qual tipo de “leitor” iria processar o arquivo, sendo “CSV” para arquivos CSV e “Excel” para arquivos tipo Excel (XLSX, XLS, XLSB, etc...);
+Foi um dos códigos mais trabalhosos que tive que fazer, por conta de todas as validações, fazer as rotas do front e back foi um verdadeiro desafio.
+
 <details>
-  Consistia em, quando escrevesse o tipo do Excel, ele selecionaria qual tipo de “leitor” iria processar o arquivo, sendo “CSV” para arquivos CSV e “Excel” para arquivos tipo Excel (XLSX, XLS, XLSB, etc...);
-  Foi um dos códigos mais trabalhosos que tive que fazer, por conta de todas as validações, fazer as rotas do front e back foi um verdadeiro desafio.
 
 <img width="331" alt="segunda_contribuicao" src="https://github.com/user-attachments/assets/b049332b-4898-4e5f-b620-fd5386436419">
 
@@ -52,10 +54,11 @@ Algoritmo para selecionar entre Excel e CSV
 
 Correção de bugs advindas de soluções ou que surgiam.
 
+Alguns bugs que apareciam ou notavam no projeto, atuei para inibir e se certificar de que não haveria mais bugs na solução desenvolvida. No backend, atuei consertando problemas de lógicas incorretas ou códigos quebrados.
+No backend foi bem mais fácil do que no frontend, já que tive mais contato com a parte do backend. O frontend foi puramente pesquisa e implementação, foi bem complicado de inicio, mas depois acabei notando que era igual ao que já havia implementado, agora em outra linguagem. Mesmo com as semelhanças do Java e JavaScript, foi dificil se adaptar a esse novo "estilo" de codar.
+Por mais que tivesse mais focado em backend, ajudei também as pessoas do front para desenvolverem suas soluções, baseado nos exemplos nos códigos já feitos e em fóruns da internet, acabei entendendo o básico que ajudou a completar o projeto. 
+
 <details>
-  Alguns bugs que apareciam ou notavam no projeto, atuei para inibir e se certificar de que não haveria mais bugs na solução desenvolvida. No backend, atuei consertando problemas de lógicas incorretas ou códigos quebrados.
-  No backend foi bem mais fácil do que no frontend, já que tive mais contato com a parte do backend. O frontend foi puramente pesquisa e implementação, foi bem complicado de inicio, mas depois acabei notando que era igual ao que já havia implementado, agora em outra linguagem. Mesmo com as semelhanças do Java e JavaScript, foi dificil se adaptar a esse novo "estilo" de codar.
-  Por mais que tivesse mais focado em backend, ajudei também as pessoas do front para desenvolverem suas soluções, baseado nos exemplos nos códigos já feitos e em fóruns da internet, acabei entendendo o básico que ajudou a completar o projeto. 
 
 <img width="511" alt="terceira_contribuicao" src="https://github.com/user-attachments/assets/fe2777bb-fd83-494e-9915-01055edcfaf7">
 
