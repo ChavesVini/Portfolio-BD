@@ -1,23 +1,12 @@
-## Introdução
+### API 3º Semestre - 01/2024
 
-Meu nome é Vinícius. Entrei na Fatec no ínicio de 2023, e, desde lá, tenho aprimorado minhas habilidades de código e modelagem de dados. Nunca havia mexido em programação antes desse curso e venho aprendendo bastante. Atualmente sou IT CRM no banco BTG Pactual, estou aprendendo a me comunicar com as àreas, mexendo em Python e suas bibliotecas (pandas, pyspark), além de trazer os dados e transformar em dashboards.
+<a href="https://github.com/wiz-fatec/dom-rock-pipeline-configurator">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"  width="200" height="65" />
+</a>
 
-## Contatos
+# Parceiro - Dom Rock
+![a0bc80_bcc237714ccb4f7d8fdfbb89fe82b5e1~mv2](https://github.com/user-attachments/assets/4fd76054-9187-4ff9-b23a-afacb5c039b8)
 
-**Git**: https://github.com/ChavesVini
-<br>
-**LinkedIn**: https://br.linkedin.com/in/vin%C3%ADcius-chaves-197353244
-
-## Meus Principais Conhecimentos
-- Possuo conhecimento e maior dominio na criação de códigos em backend, como Java e Spring Boot;
-- Desejo desenvolver o conhecimento no frontend, em VueJS, HTML e CSS;
-- Possuo conhecimento na criação de scripts no Banco de Dados;
-
-## Meus Projetos
-
-### Em 2024-1
-  A empresa para quem desenvolvemos o projeto se chama "Dom Rock". 
-  
   Dom Rock possui uma arquitetura de processamento de dados encadeados denominado pipeline que contempla alguns estágios. Esses estágios são orquestrados de forma automatizada mediante características das fontes de dados e soluções de algoritmos de IA ou modelos matemáticos em função do negócio dos clientes. Na metodologia de implantação da solução, existe a 
 necessidade de configurar as fontes de dados envolvidas para que a plataforma possa operar. Essa configuração, atualmente, é manual e trata-se de um passo crítico e fundamental que consome muito tempo de técnicos.  
 
@@ -27,14 +16,15 @@ necessidade de configurar as fontes de dados envolvidas para que a plataforma po
 2) Diminuir a dependência de técnicos especialistas para a configuração.
 
 ### Tecnologias Utilizadas
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg" width="100" height="100" />
+
 -	Java e SpringBoot - Essenciais para formar a lógica por trás da interface;
--	Vue.js, HTML e CSS - Criar a interface de forma interativa, para saber exatamente por qual caminho entrar;
--	VSCode e IntelliJIDEA - Editores de código, essencial para criar a aplicação;
+-	Vue.js - Criar a interface de forma interativa, para saber exatamente por qual caminho entrar;
 -	Slack - Comunicação com o cliente;
 -	Figma - Criação do estilo da interface;
 -	Postman - Interação do código backend com o servidor, usando endpoints para isso;
 -	MySQL - Banco de Dados utilizado para armazenar as informações de forma segura;
--	DBeaver e MySQL Workbench - Manipulação do Banco de Dados, discutindo como seria guardado os dados em cada tabela 
+-	DBeaver - Manipulação do Banco de Dados, discutindo como seria guardado os dados em cada tabela;
 
 ### Contribuições Pessoais
 No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas partes no front-end:
@@ -71,10 +61,28 @@ No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas p
 </details>
 
 ### Hard Skills
-- Java e Spring Boot: Sei fazer com autonomia;
-- Vue.js, CSS e HTML: Guiado;
+
+<details>
+
+| Habilidade |	Classificação |
+| :-----: | :-----: |
+| GitHub |	★★★☆☆ |
+| Java | ★★★☆☆ |
+| Spring Boot | ★★★☆☆ |
+| TypeScript | ★☆☆☆☆ |
+| JavaScript | ★☆☆☆☆ |
+| Vue.js | ★☆☆☆☆ |
+| CSS | ★☆☆☆☆ |
+| HTML | ★☆☆☆☆ |
+
+</details>
 
 ### Soft Skills
+<details>
 
-- Pró-atividade: Terminado minhas tarefas, auxiliava quem pedia ajuda ou quem estava com alguma dúvida, fazendo o possivel para acelerar e entregar as tasks do jeito mais estruturado e sólido possivel, agindo, assim, como um facilitador;
-- Autonomia: Evitando ao máximo não fazer sozinho, buscava dicas ou soluções em fóruns, também pesquisando o que fazia cada função, mesmo em tecnologias novas que não domino;
+| Habilidade |	Classificação |
+| :-----: | :-----: |
+| Pró-atividade |	★★★☆☆ |
+| Autonomia | ★★★☆☆ |
+
+</details>
