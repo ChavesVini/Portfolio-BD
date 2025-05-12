@@ -88,7 +88,7 @@ Gostei desse semestre pois desenvolvi a parte de banco de dados, algo que tinha 
 ## Hard Skills
 <details>
   
-| Habilidade |	Classificação |
+| Habilidade | Classificação |
 | :-----: | :-----: |
 | GitHub |	★★★☆☆ |
 | Java | ★★☆☆☆ |
@@ -99,7 +99,13 @@ Gostei desse semestre pois desenvolvi a parte de banco de dados, algo que tinha 
 ## Soft Skills
 <details>
   
-Colaboração: Busquei ouvir todas as criticas e pensar numa visão unificada que abrangesse todas as ideias dos integrantes, além de ajudar mais.
+| Habilidade | Classificação |
+| :-----: | :-----: |
+| Trabalho em equipe |	★★★☆☆ |
+| Colaboração | ★★☆☆☆ |
+| Autonomia | ★★☆☆☆ |
+| Flexibilidade | ★★☆☆☆ |
+| Responsabilidade | ★★★★★ |
 
 </details> 
 
