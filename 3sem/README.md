@@ -7,6 +7,7 @@
 # Parceiro - Dom Rock
 ![a0bc80_bcc237714ccb4f7d8fdfbb89fe82b5e1~mv2](https://github.com/user-attachments/assets/4fd76054-9187-4ff9-b23a-afacb5c039b8)
 
+# Resumo do projeto
   Dom Rock possui uma arquitetura de processamento de dados encadeados denominado pipeline que contempla alguns estágios. Esses estágios são orquestrados de forma automatizada mediante características das fontes de dados e soluções de algoritmos de IA ou modelos matemáticos em função do negócio dos clientes. Na metodologia de implantação da solução, existe a 
 necessidade de configurar as fontes de dados envolvidas para que a plataforma possa operar. Essa configuração, atualmente, é manual e trata-se de um passo crítico e fundamental que consome muito tempo de técnicos.  
 
@@ -15,7 +16,7 @@ necessidade de configurar as fontes de dados envolvidas para que a plataforma po
 1) Maior agilidade de configurar implantação para clientes Dom Rock;
 2) Diminuir a dependência de técnicos especialistas para a configuração.
 
-### Tecnologias Utilizadas
+# Tecnologias Utilizadas
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg" width="100" height="100" />
 
 -	Java e SpringBoot - Essenciais para formar a lógica por trás da interface;
@@ -26,10 +27,10 @@ necessidade de configurar as fontes de dados envolvidas para que a plataforma po
 -	MySQL - Banco de Dados utilizado para armazenar as informações de forma segura;
 -	DBeaver - Manipulação do Banco de Dados, discutindo como seria guardado os dados em cada tabela;
 
-### Contribuições Pessoais
+# Contribuições Pessoais
 No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas partes no front-end:
 
-#### O algoritmo de ler o cabeçalho do Excel
+O algoritmo de ler o cabeçalho do Excel
 
 <details>
   Montei o algoritmo mais importante do projeto, para ler um arquivo Excel de sua escolha, e meu algoritmo ia ler e retornar os nomes dos cabeçalhos. 
@@ -39,7 +40,7 @@ No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas p
 
 </details>
   
-#### Algoritmo para selecionar entre Excel e CSV
+Algoritmo para selecionar entre Excel e CSV
 
 <details>
   Consistia em, quando escrevesse o tipo do Excel, ele selecionaria qual tipo de “leitor” iria processar o arquivo, sendo “CSV” para arquivos CSV e “Excel” para arquivos tipo Excel (XLSX, XLS, XLSB, etc...);
@@ -49,7 +50,7 @@ No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas p
 
 </details>
 
-#### Correção de bugs advindas de soluções ou que surgiam.
+Correção de bugs advindas de soluções ou que surgiam.
 
 <details>
   Alguns bugs que apareciam ou notavam no projeto, atuei para inibir e se certificar de que não haveria mais bugs na solução desenvolvida. No backend, atuei consertando problemas de lógicas incorretas ou códigos quebrados.
@@ -60,7 +61,7 @@ No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas p
 
 </details>
 
-### Hard Skills
+# Hard Skills
 
 <details>
 
@@ -77,7 +78,7 @@ No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas p
 
 </details>
 
-### Soft Skills
+# Soft Skills
 <details>
 
 | Habilidade |	Classificação |
