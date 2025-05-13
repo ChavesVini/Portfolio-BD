@@ -71,16 +71,16 @@ Considero o semestre que mais mudou o meu jeito de pensar e fazer os códigos, p
 
 <details>
 
-| Habilidade |	Classificação |
-| :-----: | :-----: |
-| GitHub |	★★★☆☆ |
-| Java | ★★★☆☆ |
-| Spring Boot | ★★★☆☆ |
-| TypeScript | ★☆☆☆☆ |
-| JavaScript | ★☆☆☆☆ |
-| Vue.js | ★☆☆☆☆ |
-| CSS | ★☆☆☆☆ |
-| HTML | ★☆☆☆☆ | 
+| Habilidade | Nota | Classificação |
+| :-----: | :-----: | :-----: |
+| GitHub |	★★★☆☆ | Entendi |
+| Java | ★★★☆☆ | Entendi |
+| Spring Boot | ★★★☆☆ | Entendi |
+| TypeScript | ★★☆☆☆ | Já ouvi falar |
+| JavaScript | ★★☆☆☆ | Já ouvi falar |
+| Vue.js | ★★☆☆☆ | Já ouvi falar |
+| CSS | ★★☆☆☆ | Já ouvi falar |
+| HTML | ★★☆☆☆ | Já ouvi falar |
 
 </details>
 
@@ -90,7 +90,7 @@ Considero o semestre que mais mudou o meu jeito de pensar e fazer os códigos, p
 | Habilidade |	Classificação |
 | :-----: | :-----: |
 | Pró-atividade |	Sugeri tarefas e adiantei algumas coisas da API para que não precisasse fazer tudo na última semana |
-| Autonomia | Fui muito autonomo, basicamente não precisei de ajuda nenhuma para desenvolver minhas demandas |
+| Autonomia | Fui muito autonomo e não precisei de ajuda nenhuma para desenvolver minhas demandas |
 
 </details>
 
