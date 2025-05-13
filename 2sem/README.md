@@ -110,7 +110,7 @@ Gostei desse semestre pois desenvolvi a parte de banco de dados, algo que tinha 
 </details> 
 
 # Outros Projetos
-- [1º Semestre - Avaliação 360º](./1sem/README.md)
+- [1º Semestre - Avaliação 360º](./Porfolio-BD/1sem/README.md)
 - 2º Semestre - TG Manager
-- [3º Semestre - Dom Rock Pipeline Configurator](./3sem/README.md)
-- [4º Semestre - GEO-IOT](./4sem/README.md)
+- [3º Semestre - Dom Rock Pipeline Configurator](./Porfolio-BD/3sem/README.md)
+- [4º Semestre - GEO-IOT](./Porfolio-BD/4sem/README.md)
