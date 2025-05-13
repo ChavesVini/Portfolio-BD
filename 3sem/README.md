@@ -80,7 +80,7 @@ Considero o semestre que mais mudou o meu jeito de pensar e fazer os códigos, p
 | JavaScript | ★☆☆☆☆ |
 | Vue.js | ★☆☆☆☆ |
 | CSS | ★☆☆☆☆ |
-| HTML | ★☆☆☆☆ |
+| HTML | ★☆☆☆☆ | 
 
 </details>
 
@@ -89,8 +89,8 @@ Considero o semestre que mais mudou o meu jeito de pensar e fazer os códigos, p
 
 | Habilidade |	Classificação |
 | :-----: | :-----: |
-| Pró-atividade |	★★★☆☆ |
-| Autonomia | ★★★☆☆ |
+| Pró-atividade |	Sugeri tarefas e adiantei algumas coisas da API para que não precisasse fazer tudo na última semana |
+| Autonomia | Fui muito autonomo, basicamente não precisei de ajuda nenhuma para desenvolver minhas demandas |
 
 </details>
 
