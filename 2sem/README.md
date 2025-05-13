@@ -101,11 +101,11 @@ Gostei desse semestre pois desenvolvi a parte de banco de dados, algo que tinha 
   
 | Habilidade | Classificação |
 | :-----: | :-----: |
-| Trabalho em equipe |	★★★☆☆ |
-| Colaboração | ★★☆☆☆ |
-| Autonomia | ★★☆☆☆ |
-| Flexibilidade | ★★☆☆☆ |
-| Responsabilidade | ★★★★★ |
+| Trabalho em equipe | Busquei não ficar parado e ajudar quem estava ao meu alcance |
+| Organização | Quando terminava minhas demandas, estudava mais a fundo sobre as tecnologias |
+| Autonomia | Criei autonomia de fazer as demandas por conta própria e pesquisando bastante sobre as mesmas |
+| Flexibilidade | Tivemos muitas mudanças no time, então foi um dessfio se adaptar a nova liderança |
+| Responsabilidade | Tive o cuidado de não deixar as demandas para depois e fazer-las de acordo com o prazo estipulado |
 
 </details> 
 
