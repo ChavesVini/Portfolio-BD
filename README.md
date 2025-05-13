@@ -1,7 +1,7 @@
 # Portfolio Banco de Dados - Vinícius da Silva Chaves
 
 # Introdução
-Meu nome é Vinícius Chaves. Entrei na Fatec no ínicio de 2023, e, desde lá, tenho aprimorado minhas habilidades de código e modelagem de dados. <br> Nunca havia mexido em programação antes desse curso e venho aprendendo bastante. <br> Atualmente sou IT CRM no banco BTG Pactual, estou aprendendo a me comunicar com as àreas, mexendo em Python e suas bibliotecas (pandas, pyspark), além de trazer os dados e transformar em dashboards.
+Meu nome é Vinícius Chaves. Entrei na Fatec no ínicio de 2023, e, desde lá, tenho aprimorado minhas habilidades de código e modelagem de dados. <br> Antes deste curso, eu nunca tinha tido contato com programação, mas tenho aprendido muito desde então. <br> Atualmente sou IT CRM no banco BTG Pactual, estou aprendendo a me comunicar com as àreas, mexendo em Python e suas bibliotecas (pandas, pyspark), além de trazer os dados e transformar em dashboards.
 
 # Contatos
 | Social Media | Link |
