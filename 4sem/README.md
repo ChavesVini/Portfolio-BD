@@ -451,14 +451,12 @@ Foi a minha primeira vez pegando front-end para desenvolver, me acostumei rápid
 ## Hard Skills
 <details>
   
-| Habilidade |	Classificação |
-| :-----: | :-----: |
-| GitHub |	★★★☆☆ |
-| Java | ★★☆☆☆ |
-| PostgreSQL | ★★☆☆☆ |
-| TypeScript | ★★☆☆☆ |
-| JavaScript | ★★☆☆☆ |
-| Vue.js | ★★☆☆☆ |
+| Habilidade | Nota | Classificação |
+| :-----: | :-----: | :-----: |
+| GitHub |	★★★★★ | Sei fazer com autonomia |
+| TypeScript | ★★☆☆☆ | Já ouvi falar |
+| JavaScript | ★★☆☆☆ | Já ouvi falar |
+| Vue.js | ★★☆☆☆ | Já ouvi falar |
 
 </details> 
 
@@ -467,9 +465,14 @@ Foi a minha primeira vez pegando front-end para desenvolver, me acostumei rápid
   
 | Habilidade |	Classificação |
 | :-----: | :-----: |
-| Trabalho em equipe |	★★★☆☆ |
-| Colaboração | ★★★☆☆ |
-| Autonomia | ★★★☆☆ |
+| Trabalho em equipe |	Busquei ajudar o time a entender e corrigir bugs que vinham do processo |
+| Colaboração | Sempre disponivel, ajudava quem precisasse de ajuda |
+| Autonomia | Fui muito autonomo, raramente pedia ajuda externa ou de outros grupos |
 
 </details> 
 
+# Outros Projetos
+- [1º Semestre - Avaliação 360º](../1sem/README.md)
+- [2º Semestre - TG Manager](../2sem/README.md)
+- [3º Semestre - Dom Rock Pipeline Configurator](../3sem/README.md)
+- 4º Semestre - GEO-IOT
