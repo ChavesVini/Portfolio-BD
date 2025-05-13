@@ -88,19 +88,30 @@ def create_window(name):
 # Aprendizados Efetivos
 Tive a oportunidade de começar no desenvolvimento aprendendo Python no primeiro semestre, como foi o meu inicio na carreira de Desenvolvimento tive muita dificuldade para aprender juntamente com o desenvolvimento da API.
 
-## Hard Skills
+# Hard Skills
 <details>
   
-| Habilidade |	Classificação |
+| Habilidade | Nota | Classificação |
+| :-----: | :-----: | :-----: | 
+| Figma |	★★☆☆☆ | Já ouvi falar |
+| Python | ★★☆☆☆ | Já ouvi falar |
+
+</details> 
+
+# Soft Skills
+<details>
+
+| Habilidade | Consideração |
 | :-----: | :-----: |
-| Figma |	★☆☆☆☆ |
-| Python | ★☆☆☆☆ |
+| Trabalho em equipe | Busquei não ficar com dúvidas e perguntava a todo momento o que era pra fazer em cada tarefa. Busquei minha autonomia, mas certamente não conseguiria fazer nada sem meus colegas de classe me auxiliando. |
+| Aprendizado | Aprendi uma linguagem nova, ainda muito inexperiente, mas busquei sempre entender a sintaxe e fazer do jeito que fui treinado a fazer |
+| Organização	| Precisei me organizar para estudar e ao mesmo tempo fazer o trabalho da API |
+| Resiliência	| Busquei manter o pé no chão e sempre fazer o melhor |
 
 </details> 
 
-## Soft Skills
-<details>
-  
-Trabalho em equipe: Busquei não ficar com dúvidas e perguntava a todo momento o que era pra fazer em cada tarefa. Busquei minha autonomia, mas certamente não conseguiria fazer nada sem meus colegas de classe me auxiliando.
-</details> 
-
+# Outros Projetos
+- 1º Semestre - Avaliação 360º
+- [2º Semestre - TG Manager](./2sem/README.md)
+- [3º Semestre - Dom Rock Pipeline Configurator](./3sem/README.md)
+- [4º Semestre - GEO-IOT](./4sem/README.md)
