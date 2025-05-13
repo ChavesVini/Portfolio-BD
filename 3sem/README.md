@@ -93,3 +93,9 @@ Considero o semestre que mais mudou o meu jeito de pensar e fazer os códigos, p
 | Autonomia | ★★★☆☆ |
 
 </details>
+
+# Outros Projetos
+- [1º Semestre - Avaliação 360º](../1sem/README.md)
+- [2º Semestre - TG Manager](../2sem/README.md)
+- 3º Semestre - Dom Rock Pipeline Configurator
+- [4º Semestre - GEO-IOT](../4sem/README.md)
