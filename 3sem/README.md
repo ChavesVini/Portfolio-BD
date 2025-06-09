@@ -1,10 +1,9 @@
-# API 3º Semestre - 01/2024
+<h1 align="center">API 3º Semestre - 01/2024</h1>
+<h1 align="center"> 
+  <a href="https://github.com/wiz-fatec/dom-rock-pipeline-configurator"><img src="https://img.shields.io/badge/GitHub-Repositório Projeto-181717?style=for-the-badge&logo=github"></a>
+</h1>
 
-<a href="https://github.com/wiz-fatec/dom-rock-pipeline-configurator">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"  width="200" height="65" />
-</a>
-
-# Parceiro - Dom Rock
+# Parceiro - [Dom Rock](https://www.domrock.net/)
 ![a0bc80_bcc237714ccb4f7d8fdfbb89fe82b5e1~mv2](https://github.com/user-attachments/assets/4fd76054-9187-4ff9-b23a-afacb5c039b8)
 
 # Resumo do projeto
@@ -94,8 +93,10 @@ Considero o semestre que mais mudou o meu jeito de pensar e fazer os códigos, p
 
 </details>
 
-# Outros Projetos
+<h1 align="center">Outros Projetos</h1>
+
 - [1º Semestre - Avaliação 360º](../1sem/README.md)
 - [2º Semestre - TG Manager](../2sem/README.md)
 - 3º Semestre - Dom Rock Pipeline Configurator
 - [4º Semestre - GEO-IOT](../4sem/README.md)
+<p align="center"><a href="../README.md">Voltar a página inicial</p>
