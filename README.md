@@ -1,7 +1,7 @@
-# Portfolio Banco de Dados - Vinícius da Silva Chaves
+# Portfólio Banco de Dados - Vinícius da Silva Chaves
 
 # Introdução
-Meu nome é Vinícius Chaves. Entrei na Fatec no ínicio de 2023, e, desde lá, tenho aprimorado minhas habilidades de código e modelagem de dados. <br> Antes deste curso, eu nunca tinha tido contato com programação, mas tenho aprendido muito desde então. <br> Atualmente sou IT CRM no banco BTG Pactual, estou aprendendo a me comunicar com as àreas, aprendendo a mexer e fazer os códigos em Python e suas bibliotecas respectivas (pandas e pyspark), e com eles, faço a transformação dos dados que vem de diferentes APIs (Salesforce, AWS, RedShift) e transformo em Dashboards interativos para as áreas poderem ver de forma mais fácil todos os dados.
+Meu nome é Vinícius Chaves. Entrei na Fatec no ínicio de 2023, e, desde lá, tenho aprimorado minhas habilidades de código e modelagem de dados. <br> Antes deste curso, eu nunca tinha tido contato com programação, mas tenho aprendido muito desde então. <br> Atualmente sou IT CRM no banco BTG Pactual, estou aprendendo a interagir com as áreas de negócio e a programar códigos em Python utilizando suas bibliotecas como Pandas e Pyspark. E com essas bibliotecas, faço a transformação dos dados que vem de diferentes APIs (Salesforce, AWS, RedShift) e transformo em Dashboards interativos para as áreas poderem ver de forma mais fácil todos os dados.
 
 # Contatos
 | Social Media | Link |
@@ -10,9 +10,7 @@ Meu nome é Vinícius Chaves. Entrei na Fatec no ínicio de 2023, e, desde lá, 
 | GitHub | [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/ChavesVini) |
 
 # Meus Principais Conhecimentos
-Possuo conhecimento e maior dominio na criação de códigos em backend, como Java e Spring Boot;
-Desejo desenvolver o conhecimento no frontend, em VueJS, HTML e CSS;
-Possuo conhecimento na criação de scripts no Banco de Dados;
+Tenho maior domínio no desenvolvimento de soluções backend, especialmente utilizando Java e Spring Boot. Busco aprimorar meus conhecimentos na área de frontend, com foco em VueJS, HTML e CSS. Além disso, possuo experiência na criação de scripts e manipulação de dados em bancos de dados.
 
 # Meus projetos
 - [1º Semestre - Avaliação 360º](./1sem/README.md)
