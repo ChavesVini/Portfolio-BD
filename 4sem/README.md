@@ -1,10 +1,9 @@
-# API 4º Semestre - 02/2024
+<h1 align="center">API 4º Semestre - 02/2024</h1>
+<h1 align="center"> 
+  <a href="https://github.com/manolito-fatec/geo-iot-2024-1"><img src="https://img.shields.io/badge/GitHub-Repositório Projeto-181717?style=for-the-badge&logo=github"></a>
+</h1>
 
-<a href="https://github.com/manolito-fatec/geo-iot-2024-1">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"  width="200" height="65" />
-</a>
-
-# Parceiro - ITO1 Technology
+# Parceiro - [ITO1 Technology](https://www.ito1.com.br/)
 ![images](https://github.com/user-attachments/assets/c2b2827f-883a-4889-98d8-6e74f3db2456)
 
 # Resumo do projeto
@@ -471,8 +470,10 @@ Foi a minha primeira vez pegando front-end para desenvolver, me acostumei rápid
 
 </details> 
 
-# Outros Projetos
+<h1 align="center">Outros Projetos</h1>
+
 - [1º Semestre - Avaliação 360º](../1sem/README.md)
 - [2º Semestre - TG Manager](../2sem/README.md)
 - [3º Semestre - Dom Rock Pipeline Configurator](../3sem/README.md)
 - 4º Semestre - GEO-IOT
+<p align="center"><a href="../README.md">Voltar a página inicial</p>
