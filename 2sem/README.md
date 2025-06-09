@@ -1,10 +1,9 @@
-# API 2º Semestre - 02/2023
+<h1 align="center">API 2º Semestre - 02/2023</h1>
+<h1 align="center"> 
+  <a href="https://github.com/wiz-fatec/api-2BD"><img src="https://img.shields.io/badge/GitHub-Repositório Projeto-181717?style=for-the-badge&logo=github"></a>
+</h1>
 
-<a href="https://github.com/wiz-fatec/api-2BD">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"  width="200" height="65" />
-</a>
-
-# Parceiro - FATEC São José dos Campos - Prof. Jessen Vidal
+# Parceiro - [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)
 ![images](https://github.com/user-attachments/assets/e95aca6f-e14c-4178-97c3-997752fcba52)
 
 # Resumo do projeto
@@ -15,7 +14,7 @@ Desenvolver uma aplicação que leia um arquivo ".csv" com respostas vindas de u
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"  width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="100" height="100" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="100" height="100" />
           
 - PostgreSQL: Banco de dados open-source, usado para ser o banco de dados e a persistência das informações.
-- Java: Utilizado no back-end para a transformação dos dados e no front-end, usando o JavaFX;
+- Java: Utilizado no back-end para a transformação dos dados e no front-end, usando o JavaFX.
 - GitHub: Foi usado para o gerenciamento das tarefas.
 
 # Contribuições Individuais
@@ -109,8 +108,10 @@ Gostei desse semestre pois desenvolvi a parte de banco de dados, algo que tinha 
 
 </details> 
 
-# Outros Projetos
+<h1 align="center">Outros Projetos</h1>
+
 - [1º Semestre - Avaliação 360º](../1sem/README.md)
 - 2º Semestre - TG Manager
 - [3º Semestre - Dom Rock Pipeline Configurator](../3sem/README.md)
 - [4º Semestre - GEO-IOT](../4sem/README.md)
+<p align="center"><a href="../README.md">Voltar a página inicial</p>
