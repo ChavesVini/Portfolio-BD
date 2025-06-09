@@ -1,9 +1,9 @@
-# API 1º Semestre - 01/2023
-<a href="https://github.com/wiz-fatec/avaliacao-360">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"  width="200" height="65" />
-</a>
+<h1 align="center">API 1º Semestre - 01/2023</h1>
+<h1 align="center"> 
+  <a href="https://github.com/wiz-fatec/avaliacao-360"><img src="https://img.shields.io/badge/GitHub-Repositório Projeto-181717?style=for-the-badge&logo=github"></a>
+</h1>
 
-# Parceiro - FATEC São José dos Campos - Prof. Jessen Vidal
+# Parceiro - [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/)
 ![images](https://github.com/user-attachments/assets/e95aca6f-e14c-4178-97c3-997752fcba52)
 
 # Resumo do projeto
@@ -86,7 +86,7 @@ def create_window(name):
 </details>
 
 # Aprendizados Efetivos
-Tive a oportunidade de começar no desenvolvimento aprendendo Python no primeiro semestre, como foi o meu inicio na carreira de Desenvolvimento tive muita dificuldade para aprender juntamente com o desenvolvimento da API.
+Tive a oportunidade de começar no desenvolvimento aprendendo Python no primeiro semestre, como foi o meu início na carreira de Desenvolvimento tive muita dificuldade para aprender juntamente com o desenvolvimento da API.
 
 # Hard Skills
 <details>
@@ -103,15 +103,17 @@ Tive a oportunidade de começar no desenvolvimento aprendendo Python no primeiro
 
 | Habilidade | Consideração |
 | :-----: | :-----: |
-| Trabalho em equipe | Busquei não ficar com dúvidas e perguntava a todo momento o que era pra fazer em cada tarefa. Busquei minha autonomia, mas certamente não conseguiria fazer nada sem meus colegas de classe me auxiliando. |
+| Trabalho em equipe | Busquei não ficar com dúvidas e perguntava a todo momento o que era pra fazer em cada tarefa. Busquei minha autonomia, mas certamente não conseguiria fazer nada sem meus colegas de classe me auxiliando |
 | Aprendizado | Aprendi uma linguagem nova, ainda muito inexperiente, mas busquei sempre entender a sintaxe e fazer do jeito que fui treinado a fazer |
 | Organização	| Precisei me organizar para estudar e ao mesmo tempo fazer o trabalho da API |
-| Resiliência	| Busquei manter o pé no chão e sempre fazer o melhor |
+| Resiliência	| Mantive o foco, a calma e me empenhei em sempre entregar o meu melhor, independentemente de qualquer desafio |
 
 </details> 
 
-# Outros Projetos
+<h1 align="center">Outros Projetos</h1>
+
 - 1º Semestre - Avaliação 360º
 - [2º Semestre - TG Manager](../2sem/README.md)
 - [3º Semestre - Dom Rock Pipeline Configurator](../3sem/README.md)
 - [4º Semestre - GEO-IOT](../4sem/README.md)
+<p align="center"><a href="../README.md">Voltar a página inicial</p>
