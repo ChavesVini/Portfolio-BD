@@ -17,3 +17,4 @@ Tenho maior domínio no desenvolvimento de soluções backend, especialmente uti
 - [2º Semestre - TG Manager](./2sem/README.md)
 - [3º Semestre - Dom Rock Pipeline Configurator](./3sem/README.md)
 - [4º Semestre - GEO-IOT](./4sem/README.md)
+- [5º Semestre - VISION](./5sem/README.md)
