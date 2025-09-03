@@ -324,6 +324,7 @@ Consegui desempenhar minhas tarefas com eficiência, cumprindo com todos os praz
 | Trabalho em equipe | Busquei não ficar parado e ajudar quem estava ao meu alcance |
 | Responsabilidade | Tive o cuidado de não deixar as demandas para depois e fazer-las de acordo com o prazo estipulado |
 | Colaboração	| Terminava minhas demandas e ajudava quem precisasse de ajuda |
+| Flexibilidade	| Em qualquer dia e horário, estava sempre disponível a ajudar |
 
 </details> 
 
@@ -336,4 +337,5 @@ Consegui desempenhar minhas tarefas com eficiência, cumprindo com todos os praz
 - 5º Semestre - VISION
 
 <p align="center"><a href="../README.md">Voltar a página inicial</p>
+
 
