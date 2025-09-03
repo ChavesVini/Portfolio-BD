@@ -7,7 +7,7 @@
 <img width="400" height="157" alt="logo-youtan" src="https://github.com/user-attachments/assets/20d1d1bf-d29c-4101-bba0-215e135f425c" />
 
 # Resumo do projeto
-A proposta é criar a VISION, uma ferramenta de visualização de indicadores integrada à plataforma Taiga, com foco em tornar a gestão de projetos mais eficiente, visual e transparente. A Vision permitirá que usuários acompanhem o progresso de tarefas através de dados como tempo médio de finalização, distribuição de responsabilidades, uso de etiquetas e mais.
+O projeto é uma solução sob medida para a Youtan, empresa especializada no desenvolvimento de softwares e aplicativos sob demanda desde 2002. Localizada no Parque Tecnológico de São José dos Campos e membro do TIC Vale — o maior cluster de TI do Brasil — a Youtan atua com metodologias ágeis e tecnologias modernas para transformar ideias em soluções digitais para Web, Desktop e Mobile. Além disso, oferece o SIGI, seu próprio ERP em modelo SaaS, voltado para empresas B2B de pequeno e médio porte.
 
 # Tecnologias
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="100" height="100"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="100" height="100"/>
@@ -141,6 +141,156 @@ Atuei no front-end para aplicar as lógicas dos filtros que vinha do back-end pa
 ```
 </details>
 
+Atuei também para criar o endpoint que pega todas as informações no Dashboard e transforma em Excel
+<details>
+<summary> Código em Java - Endpoint exportar Excel </summary>
+  
+```java
+    @GetMapping("/request-excel")
+    public ResponseEntity<Void> exportToExcel(HttpServletResponse response, 
+                              @RequestParam(required = false) String milestone,
+                              @RequestParam(required = false) String project,
+                              @RequestParam(required = false) String user)  {
+        try {
+            List<String> accessList = uRepo.accessControl();
+            Workbook workbook = new XSSFWorkbook();
+
+            List<StatsDto> statsList;
+            List<MilestoneDto> tasksSprint;
+            List<TaskStatusHistoryDto> reworkDetails;
+            List<TagDto> tagList;
+            List<MilestoneDto> tasksSprintClosed;
+
+            if (accessList.contains("Stakeholder")) {
+                statsList = sRepo.countTasksByStatusManager(milestone, project, user);
+                tasksSprint = mRepo.countCardsPerSprintManager(milestone, project, user);
+                reworkDetails = tshRepo.findTaskStatusHistoryWithReworkFlagManager(milestone, project, user);
+                tagList = tagRepo.countTasksByTagManager(milestone, project, user);
+                tasksSprintClosed = mRepo.countCardsClosedPerSprintManager(milestone, project, user);
+            } else if(accessList.contains("UX") ||
+                      accessList.contains("Back") ||
+                      accessList.contains("Front") ||
+                      accessList.contains("Design")) {
+                statsList = sRepo.countTasksByStatusOperator(milestone, project, user);
+                tasksSprint = mRepo.countCardsPerSprintOperator(milestone, project, user);
+                reworkDetails = tshRepo.findTaskStatusHistoryWithReworkFlagOperator(milestone, project, user);
+                tagList = tagRepo.countTasksByTagOperator(milestone, project, user);
+                tasksSprintClosed = mRepo.countCardsClosedPerSprintOperator(milestone, project, user);
+            } else {
+                statsList = sRepo.countTasksByStatusAdmin(milestone, project, user);
+                tasksSprint = mRepo.countCardsPerSprintAdmin(milestone, project, user);
+                reworkDetails = tshRepo.findTaskStatusHistoryWithReworkFlagAdmin(milestone, project, user);
+                tagList = tagRepo.countTasksByTagAdmin(milestone, project, user);
+                tasksSprintClosed = mRepo.countCardsClosedPerSprintAdmin(milestone, project, user);
+            }
+
+            Sheet statusSheet = workbook.createSheet("Tarefas por Status");
+
+            Row headerStatusRow = statusSheet.createRow(0);
+            headerStatusRow.createCell(0).setCellValue("Projeto");
+            headerStatusRow.createCell(1).setCellValue("Operador");
+            headerStatusRow.createCell(2).setCellValue("Sprint");
+            headerStatusRow.createCell(3).setCellValue("Status");
+            headerStatusRow.createCell(4).setCellValue("Qtd Tarefas");
+
+            int rowIdxStatus = 1;
+            for (StatsDto stats : statsList) {
+                Row row = statusSheet.createRow(rowIdxStatus++);
+                row.createCell(0).setCellValue(stats.getProjectName());
+                row.createCell(1).setCellValue(stats.getUserName());
+                row.createCell(2).setCellValue(stats.getMilestoneName());
+                row.createCell(3).setCellValue(stats.getStatusName());
+                row.createCell(4).setCellValue(stats.getQuant());
+            }
+
+            Sheet createdCardsSheet = workbook.createSheet("Tarefas Criadas");
+
+            Row headerCreatedCardsRow = createdCardsSheet.createRow(0);
+            headerCreatedCardsRow.createCell(0).setCellValue("Projeto");
+            headerCreatedCardsRow.createCell(1).setCellValue("Operador");
+            headerCreatedCardsRow.createCell(2).setCellValue("Sprint");
+            headerCreatedCardsRow.createCell(3).setCellValue("Qtd Tarefas Criadas");
+
+            int rowIdxCreatedCards = 1;
+            for (MilestoneDto milestoneDto : tasksSprint) {
+                Row row = createdCardsSheet.createRow(rowIdxCreatedCards++);
+                row.createCell(0).setCellValue(milestoneDto.getProjectName());
+                row.createCell(1).setCellValue(milestoneDto.getUserName());
+                row.createCell(2).setCellValue(milestoneDto.getMilestoneName());
+                row.createCell(3).setCellValue(milestoneDto.getQuant());
+            }
+
+            Sheet reworkSheet = workbook.createSheet("Retrabalhos");
+
+            Row headerReworkSheet = reworkSheet.createRow(0);
+            headerReworkSheet.createCell(0).setCellValue("Projeto");
+            headerReworkSheet.createCell(1).setCellValue("Operador");
+            headerReworkSheet.createCell(2).setCellValue("Sprint");
+            headerReworkSheet.createCell(3).setCellValue("Qtd Retrabalhos");
+
+            int rowIdxRework = 1;
+            for (TaskStatusHistoryDto rework : reworkDetails) {
+                Row row = reworkSheet.createRow(rowIdxRework++);
+                row.createCell(0).setCellValue(rework.getProjectName());
+                row.createCell(1).setCellValue(rework.getUserName());
+                row.createCell(2).setCellValue(rework.getMilestoneName());
+                row.createCell(3).setCellValue(rework.getRework());
+            }
+
+            Sheet tagSheet = workbook.createSheet("Tarefas por Tag");
+
+            Row headerTagSheet = tagSheet.createRow(0);
+            headerTagSheet.createCell(0).setCellValue("Projeto");
+            headerTagSheet.createCell(1).setCellValue("Operador");
+            headerTagSheet.createCell(2).setCellValue("Sprint");
+            headerTagSheet.createCell(3).setCellValue("Tag");
+            headerTagSheet.createCell(4).setCellValue("Qtd Tarefas por Tag");
+
+            int rowIdxTag = 1;
+            for (TagDto tag : tagList) {
+                Row row = tagSheet.createRow(rowIdxTag++);
+                row.createCell(0).setCellValue(tag.getProjectName());
+                row.createCell(1).setCellValue(tag.getUserName());
+                row.createCell(2).setCellValue(tag.getMilestoneName());
+                row.createCell(3).setCellValue(tag.getTagName());
+                row.createCell(4).setCellValue(tag.getQuant());
+            }
+
+            Sheet tasksClosedSheet = workbook.createSheet("Tarefas Finalizadas");
+
+            Row headerTasksClosedSheet = tasksClosedSheet.createRow(0);
+            headerTasksClosedSheet.createCell(0).setCellValue("Projeto");
+            headerTasksClosedSheet.createCell(1).setCellValue("Operador");
+            headerTasksClosedSheet.createCell(2).setCellValue("Sprint");
+            headerTasksClosedSheet.createCell(3).setCellValue("Qtd Tarefas Finalizadas");
+
+            int rowIdxTaskClosed = 1;
+            for (MilestoneDto sprintClosed : tasksSprintClosed) {
+                Row row = tasksClosedSheet.createRow(rowIdxTaskClosed++);
+                row.createCell(0).setCellValue(sprintClosed.getProjectName());
+                row.createCell(1).setCellValue(sprintClosed.getUserName());
+                row.createCell(2).setCellValue(sprintClosed.getMilestoneName());
+                row.createCell(3).setCellValue(sprintClosed.getQuant());
+            }
+
+            response.setContentType("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+            response.setHeader("Content-Disposition", "attachment");
+
+            OutputStream outputStream = response.getOutputStream();
+            workbook.write(outputStream);
+            workbook.close();
+            outputStream.close();
+
+            return ResponseEntity.ok().build();
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
+    }
+```
+</details>
+
+
+
 # Aprendizados Efetivos
 Consegui desempenhar minhas tarefas com eficiência, cumprindo com todos os prazos. Além disso, colaborei com colegas de equipe, auxiliando-os em suas demandas e contribuindo para a melhoria da dinâmica do grupo.
 
@@ -158,7 +308,7 @@ Consegui desempenhar minhas tarefas com eficiência, cumprindo com todos os praz
 | JavaScript |	★★★☆☆ | Entendi |
 | VueJS | ★★★☆☆ | Entendi |
 | VSCode | ★★★★★ | Sei fazer com autonomia |
-| GitHub | ★★★☆☆ | Entendi |
+| GitHub | ★★★★★ | Sei fazer com autonomia |
 | TypeScript | ★★★☆☆ | Entendi |
 | Spring Boot | ★★★★★ | Sei fazer com autonomia |
 | PostgreSQL |	★★★★★ | Sei fazer com autonomia |
@@ -173,6 +323,7 @@ Consegui desempenhar minhas tarefas com eficiência, cumprindo com todos os praz
 | :-----: | :-----: |
 | Trabalho em equipe | Busquei não ficar parado e ajudar quem estava ao meu alcance |
 | Responsabilidade | Tive o cuidado de não deixar as demandas para depois e fazer-las de acordo com o prazo estipulado |
+| Colaboração	| Terminava minhas demandas e ajudava quem precisasse de ajuda |
 
 </details> 
 
@@ -185,3 +336,4 @@ Consegui desempenhar minhas tarefas com eficiência, cumprindo com todos os praz
 - 5º Semestre - VISION
 
 <p align="center"><a href="../README.md">Voltar a página inicial</p>
+
