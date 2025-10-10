@@ -19,7 +19,7 @@ O programa viabiliza a avaliação dos alunos, se baseando na metodologia Avalia
 
 # Contribuições Individuais
 No primeiro semestre, contribui somente no back-end e no front-end e atuei em alguns bugs.
-Criei o botão que permitiu o usuário voltar para a tela inicial do programa, sem precisar fechar e abrir o programa de novo, como estava ingressando e não sabia nada de programação, foi dificil para implementar esse ajuste.
+Criei o botão que permitiu o usuário voltar para a tela inicial do programa, sem precisar fechar e abrir o programa de novo, como estava ingressando e não sabia nada de programação, foi difícil para implementar esse ajuste.
 
 <details>
   <summary>Código em Python - Botão voltar da tela de dashboards</summary>
@@ -118,5 +118,6 @@ Tive a oportunidade de começar no desenvolvimento aprendendo Python no primeiro
 - [4º Semestre - GEO-IOT](../4sem/README.md)
 - [5º Semestre - VISION](../5sem/README.md)
 <p align="center"><a href="../README.md">Voltar a página inicial</p>
+
 
 
