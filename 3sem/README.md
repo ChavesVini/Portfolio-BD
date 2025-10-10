@@ -31,7 +31,7 @@ No terceiro semestre, contribui com o back-end, desenvolvendo também, algumas p
 
 O algoritmo de ler o cabeçalho do Excel
 
-Montei o algoritmo mais importante do projeto, para ler um arquivo Excel de sua escolha, e meu algoritmo ia ler e retornar os nomes dos cabeçalhos. 
+Desenvolvi um algoritmo importante, para ler dados de um arquivo Excel da escolha do usuário e retornar os nomes dos cabeçalhos desse arquivo.
 Foi reciclado um pedaço de um código do segundo semestre (2023-2) para trazer os cabeçalhos e o conteúdo dentro do CSV, fazendo uma lógica para trazer apenas os cabeçalhos, fazendo o mesmo para ler arquivos Excel (XLSX, XLSM, etc). Não foi tão dificil de desenvolver, mas gostaria que fosse um pouco mais desafiador, até porque foi só incrementar mais algumas linhas e saiu funcionando tranquilamente.
 
 <details>
@@ -101,4 +101,5 @@ Considero o semestre que mais mudou o meu jeito de pensar e fazer os códigos, p
 - [4º Semestre - GEO-IOT](../4sem/README.md)
 - [5º Semestre - VISION](../5sem/README.md)
 <p align="center"><a href="../README.md">Voltar a página inicial</p>
+
 
