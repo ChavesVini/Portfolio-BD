@@ -117,7 +117,6 @@ Tive a oportunidade de começar no desenvolvimento aprendendo Python no primeiro
 - [3º Semestre - Dom Rock Pipeline Configurator](../3sem/README.md)
 - [4º Semestre - GEO-IOT](../4sem/README.md)
 - [5º Semestre - VISION](../5sem/README.md)
+- [6º Semestre - LuminIA](../6sem/README.md)
+
 <p align="center"><a href="../README.md">Voltar a página inicial</p>
-
-
-
