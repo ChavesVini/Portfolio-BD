@@ -338,6 +338,3 @@ Consegui desempenhar minhas tarefas com eficiência, cumprindo com todos os praz
 - [6º Semestre - LuminIA](../6sem/README.md)
 
 <p align="center"><a href="../README.md">Voltar a página inicial</p>
-
-
-
