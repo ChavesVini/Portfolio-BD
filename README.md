@@ -1,7 +1,9 @@
 # Portfólio Banco de Dados - Vinícius da Silva Chaves
 
 # Introdução
-Meu nome é Vinícius Chaves. Entrei na Fatec no ínicio de 2023, e, desde lá, tenho aprimorado minhas habilidades de código e modelagem de dados. <br> Antes deste curso, eu nunca tinha tido contato com programação, mas tenho aprendido muito desde então.
+Meu nome é Vinícius Chaves. Entrei na Fatec no ínicio de 2023, e, desde lá, tenho aprimorado minhas habilidades de código e modelagem de dados. <br> 
+Me formei na EE Prof. José Vieira Macedo - Extensão Etec, no curso técnico de Administração, mas sempre tive interesse em tecnologia e em trabalhar com dados. <br>
+Entrei na Fatec no início de 2023 para seguir esse caminho. A programação surgiu durante o curso. No começo foi desafiador, mas com o tempo me adaptei, evolui e descobri que a área de dados unia exatamente o que eu buscava: lógica e tecnologia.
 
 # Contatos
 | Social Media | Link |
