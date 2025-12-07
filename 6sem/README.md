@@ -23,7 +23,7 @@ A situação atual mostra que o banco de dados de suporte já não atende bem à
 - Flair, Prophet e Sci-Kit: ML's usados para o projeto para prever sentimento, faq automatizado e previsões de demanda.
 
 # Contribuições Individuais
-No sexto semestre, contribui como SM, banco de dados e back-end.
+No sexto semestre, contribui como SM, banco de dados, back-end e front-end.
 
 Atuei no back-end para trazer os dados do SQL Server e tratar no MongoDB.
 
@@ -382,5 +382,6 @@ Ao final, essa vivência me trouxe mais maturidade na liderança e uma visão ma
 - 6º Semestre - LuminIA
 
 <p align="center"><a href="../README.md">Voltar a página inicial</p>
+
 
 
