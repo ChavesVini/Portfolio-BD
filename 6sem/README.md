@@ -334,7 +334,7 @@ Atuando também como Scrum Master, contribuí diretamente para a organização, 
 
 - Seleção e Implantação de Ferramentas de Trabalho: Responsável por definir, configurar e operacionalizar a ferramenta oficial de gerenciamento de tarefas do time, garantindo aderência ao fluxo de desenvolvimento.
 - Condução de Cerimônias Ágeis: Facilitação eficiente de cerimônias como daily, planning e retrospective, promovendo alinhamento, foco e ritmo de entrega da equipe.
-- Documentação Técnica e Operacional: Produção de documentação completa — desde instruções para execução do projeto até especificações técnicas detalhadas — assegurando transparência e continuidade do conhecimento.
+- Documentação Técnica e Operacional: Produção de documentação completa, desde instruções para execução do projeto até especificações técnicas detalhadas, assegurando transparência e continuidade do conhecimento.
 - Identificação e Resolução de Impedimentos: Atuação pró-ativa na detecção e remoção de barreiras técnicas ou processuais que impactavam o fluxo de trabalho e a produtividade.
 - Padronização e Estruturação de Repositórios: Organização inicial dos repositórios no GitHub, definindo padrões de estrutura, boas práticas e facilitando a colaboração entre os integrantes.
 
@@ -395,6 +395,7 @@ Ao final, essa vivência me trouxe mais maturidade na liderança e uma visão ma
 - 6º Semestre - LuminIA
 
 <p align="center"><a href="../README.md">Voltar a página inicial</p>
+
 
 
 
